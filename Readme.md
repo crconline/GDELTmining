@@ -1,6 +1,9 @@
 <p align="center">
 <span style="color: #1100ff; font-family: ; font-size: 2em;">GDELT Project Mining</span>
 <div style="text-align:center"><img src ="https://www.gdeltproject.org/images/spinningglobe.gif" width="200" /></div>
+
+<div style="text-align:center"><img src ="https://hadoopi.files.wordpress.com/2014/09/screen-shot-2014-09-24-at-20-55-34.png" width="400" /></div>
+
 </p>
 
 This project contains several python scripts developed to mine the GDELT project in search of a keyword in a URL.
