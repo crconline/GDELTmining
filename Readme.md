@@ -16,7 +16,7 @@ and
 
 As any Data Science project Pipeline, this project follows *almost* all phases of the **OSEMN** pipeline model:
 
-** O — Obtaining our data **
+**O — Obtaining our data**
 
 This phase is carry on by means of the **GDELTmining.py** python script, which searches GDELT project database by using keywords introduced as parameters from the input device.
 
@@ -24,13 +24,13 @@ It generates a directory **CSVfiles** containing the retrieved files which URL m
 
 The script also generates a log file containing statistics **URLstats.txt**.
 
-** S — Scrubbing / Cleaning our data**
+**S — Scrubbing / Cleaning our data**
 
 The data cleaning phase is done with the **authlistgen.py** python script to generates a list of authors by complete name taken from the database of authors generated with Web of Science utility.
 
 The list of edited names is saved in the generated file **authorslist.csv**.
 
-** E — Exploring / Visualizing our data will allow us to find patterns and trends**
+**E — Exploring / Visualizing our data will allow us to find patterns and trends**
 
 This is carry on with the **minefiles.py** python script, which is the main script of the project as it is in charge of retrieving all matches between the authors' names and full text of each one of the files in the subdirectory **TXTitems**.
 
@@ -40,11 +40,11 @@ With the data explored, visualizing objects can be generated, like this timeline
 
 <div style="text-align:center"><img src ="prodZika.png" width="400" /></div>
 
-** M — Modeling our data will give us our predictive power as a wizard**
+**M — Modeling our data will give us our predictive power as a wizard**
 
 Since this is not a Predictive Analytics project, this phase was not performed, although we already have the necessary data for further analysis. 
 
-** N — Interpreting our data**
+**N — Interpreting our data**
 
 Statistics on the findings about this project, are carried out with  **uniqueauth.py** python script, which embed three functions to generate:
 
